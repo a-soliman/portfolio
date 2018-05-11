@@ -1,5 +1,5 @@
 {
-  "name": "Gulp-Starter",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Gulp Starter with Bootstrap4, babel, sass, source mapping, font-awesome, jquery",
   "main": "app.js",
