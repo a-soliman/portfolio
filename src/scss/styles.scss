@@ -8,3 +8,51 @@
 body {
 	background: $white;
 }
+
+.container {
+	padding: 2% 10%;
+}
+
+header {
+	padding: 10px 0;
+	border-bottom: 2px solid $light-grey;
+
+	div {
+		display: inline-block;
+	}
+	.logo-container{
+		width: 50%;
+	}
+	img {
+		width: 80px;
+	}
+
+	.name {
+		width: 49%;
+		text-align: right;
+		text-transform: uppercase;
+		
+	}
+}
+
+
+
+@media screen and (max-width:590px) {
+    header {
+		text-align: center;
+		
+        div {
+            display: block;
+		}
+
+		.logo-container {
+			width: 100%;
+			padding-bottom: 10px;
+		}
+		
+		.name {
+			width: 100%;
+			text-align: center;
+		}
+    }
+}
