@@ -31,7 +31,33 @@ header {
 	h3 {
 		color: $light-grey;
 	}
+
+	a{
+		color: unset;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.project {
+		img {
+			border: 2px solid $white;
+		}
+		&:hover {
+			img {
+				border-right: 2px solid $blue;
+				border-bottom: 2px solid $blue;
+			}
+			h3 {
+				color: $blue;
+			}
+		}
+	}
 }
 footer {
 	background-color: $blue;
+
+	p.lead {
+		margin: 0;
+	}
 }
