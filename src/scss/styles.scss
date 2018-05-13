@@ -27,6 +27,14 @@ header {
 	}
 }
 
+.hero {
+	#carouselIndicators {
+		li.active {
+			background: $blue;
+		}
+	}
+}
+
 .work {
 	h3 {
 		color: $light-grey;
