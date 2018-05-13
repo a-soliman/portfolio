@@ -51,6 +51,9 @@ header {
 		img {
 			border: 2px solid $white;
 		}
+		h3 {
+			letter-spacing: 1px;
+		}
 		&:hover {
 			img {
 				border-right: 2px solid $blue;
