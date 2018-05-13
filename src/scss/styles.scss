@@ -6,12 +6,12 @@ body {
 }
 
 header {
-	border-bottom: 2px solid $blue;
+	border-bottom: 2px solid $light-grey;
 	img {
 		width: 100%;
 		max-width: 80px;
 	}
-	h2 {
-
+	h2, p {
+		text-transform: uppercase;
 	}
 }
