@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio</title>
-	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -14,59 +14,25 @@
 	<!-- Body STARTS HERE -->
 	<div class="container">
 		<!-- HEADER -->
-		<header>
-			<div class="logo-container">
-				<img src="img/udacity.png" alt="">
-			</div>
-			<div class="name">
-				<h1>Jane Doette</h1>
-				<p>Front-End Ninja</p>
+		<header class="pb-2">
+			<div class="row">
+				<div class="col-md-6 text-md-left text-sm-center mb-3">
+					<img src="img/udacity.png" alt="">
+				</div>
+				<div class="col-md-6 text-md-right text-sm-center">
+					<div class="name">
+						<h2 class="mb-1">Name</h2>
+						<p class="lead">Position</p>
+					</div>
+				</div>
 			</div>
 		</header>
-
-		<!-- HERO -->
-		<section class="hero">
-			<img src="img/code.jpg" alt="">
-		</section>
-
-		<!-- WORK -->
-		<section class="work">
-			<h2 class="title">feture work</h2>
-			<div class="work-container">
-				<div class="project">
-					<a href="https://github.com/site/flower-shop" target="_blank">
-						<img src="img/app-1.jpg" alt="">
-						<h2>Snap App</h2>
-						<p class="small"></p>
-					</a>
-				</div>
-				<div class="project">
-					<a href="https://github.com/site/flowers" target="_blank">
-						<img src="img/app-2.jpg" alt="">
-						<h2>Flowers</h2>
-						<p class="small"></p>
-					</a>
-				</div>
-				<div class="project">
-					<a href="https://github.com/site/bokeh" target="_blank">
-						<img src="img/app-3.jpg" alt="">
-						<h2>Bokeh</h2>
-						<p class="small"></p>
-					</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- FOOTER -->
-		<footer>
-			<p>&copy; 2018 - Jane Doette.</p>
-		</footer>
 	</div>
 	
 	<!-- Body ENDS HERE -->
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/popper.min.js"></script>
-	<!-- <script src="./js/bootstrap.min.js"></script> -->
+	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 </html>
